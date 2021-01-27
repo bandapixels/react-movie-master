@@ -1,0 +1,30 @@
+.movie-section {
+  padding: 20px;
+
+  h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+
+  ul {
+    margin-bottom: 10px;
+
+    li {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+
+      span {
+        &:first-child {
+          display: block;
+          width: 150px;
+          flex-shrink: 0;
+        }
+      }
+    }
+  }
+}

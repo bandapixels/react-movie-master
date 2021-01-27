@@ -1,0 +1,36 @@
+.search-container {
+  margin: 30px auto 10px;
+  padding: 0 10px;
+
+  h1 {
+    margin-bottom: 10px;
+  }
+}
+
+.search-wrapper {
+  input {
+    max-width: 400px;
+    width: 100%;
+    padding: 5px 15px;
+  }
+
+  select {
+    margin: 0 10px;
+    min-width: 100px;
+    max-width: 150px;
+    padding: 5px 0;
+  }
+
+  & > button {
+    padding: 5px 15px;
+  }
+}
+
+.search-results {
+  margin: 20px auto 0;
+}
+
+.error {
+  color: #ff2626;
+}
+

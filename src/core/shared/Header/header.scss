@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 15px 0 0;
+
+  &-navigation {
+    display: flex;
+    border: 1px solid #333;
+
+    a {
+      display: block;
+      padding: 10px 15px;
+      text-decoration: none;
+    }
+  }
+
+  select {
+    padding: 5px 10px;
+  }
+}

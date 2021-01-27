@@ -1,0 +1,12 @@
+.favorite-movies {
+  margin: 30px auto 10px;
+  padding: 0 10px;
+}
+
+.draggable-movies {
+  & > * {
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+}

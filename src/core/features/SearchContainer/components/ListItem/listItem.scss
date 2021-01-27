@@ -1,0 +1,13 @@
+.list-item {
+  display: flex;
+  align-items: center;
+
+  &:not(:first-child) {
+    margin-top: 10px;
+  }
+
+  a {
+    display: block;
+    width: 60%;
+  }
+}
